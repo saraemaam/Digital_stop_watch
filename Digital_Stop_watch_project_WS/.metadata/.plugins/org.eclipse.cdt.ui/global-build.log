@@ -1,0 +1,1719 @@
+01:11:53 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4098 bytes (12.5% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:14:14 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:15:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4124 bytes (12.6% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:17:07 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:15:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4128 bytes (12.6% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:25:06 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:15:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4128 bytes (12.6% Full)
+(.text + .data + .bootloader)
+
+Data:         10 bytes (0.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:03:39 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4772 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:05:33 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4792 bytes (14.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:10:44 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5650 bytes (17.2% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:19:25 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5650 bytes (17.2% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:21:41 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5650 bytes (17.2% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:28:40 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5650 bytes (17.2% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:29:27 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5650 bytes (17.2% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:39:36 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5670 bytes (17.3% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:40:51 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4206 bytes (12.8% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:44:48 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../digital_stop_watch.c:159:3: warning: "/*" within comment
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4206 bytes (12.8% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:49:33 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../digital_stop_watch.c:159:3: warning: "/*" within comment
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4206 bytes (12.8% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:50:53 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5770 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:52:21 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5770 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:06:09 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5770 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:06:53 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5770 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:10:09 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5770 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:50:03 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5756 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:53:15 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5770 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:54:06 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5770 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:55:31 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5770 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:56:23 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5770 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+12:58:49 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5770 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:05:30 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5770 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:05:58 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5770 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:11:31 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5480 bytes (16.7% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:21:54 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5770 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:31:44 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5770 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+13:35:09 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5770 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:10:19 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5736 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:36:41 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5750 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         30 bytes (1.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:39:16 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5750 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         30 bytes (1.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:41:01 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5750 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         30 bytes (1.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:42:37 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5750 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         30 bytes (1.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:44:21 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5750 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         30 bytes (1.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:46:23 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5750 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         30 bytes (1.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:48:13 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5750 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         30 bytes (1.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:54:36 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5750 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         30 bytes (1.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:56:36 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5750 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:03:22 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4238 bytes (12.9% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:07:38 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5750 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:39:51 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5754 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:52:17 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5768 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:00:20 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5768 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:03:55 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5780 bytes (17.6% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:05:51 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5804 bytes (17.7% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:11:27 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5838 bytes (17.8% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:14:33 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5852 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:15:36 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5852 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:19:30 **** Incremental Build of configuration Debug for project Digital_stop_watch_project ****
+make all 
+Building file: ../digital_stop_watch.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"digital_stop_watch.d" -MT"digital_stop_watch.o" -c -o "digital_stop_watch.o" "../digital_stop_watch.c"
+In file included from ../digital_stop_watch.c:14:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../digital_stop_watch.c
+ 
+Building target: Digital_stop_watch_project.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Digital_stop_watch_project.map -mmcu=atmega32 -o "Digital_stop_watch_project.elf"  ./digital_stop_watch.o   
+Finished building target: Digital_stop_watch_project.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Digital_stop_watch_project.elf  >"Digital_stop_watch_project.lss"
+Finished building: Digital_stop_watch_project.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Digital_stop_watch_project.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5852 bytes (17.9% Full)
+(.text + .data + .bootloader)
+
+Data:         29 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
