@@ -1,0 +1,250 @@
+/*
+ * digital_stop_watch.c
+ *
+ *  Created on: Apr 9, 2023
+ *      Author: Sarah
+ */
+
+/**********************************************************************************************
+ * MINI PROJECT 2 (DIGITAL STOP WATCH)
+ *********************************************************************************************/
+
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#include <util/delay.h>
+
+
+//Functions prototype
+
+void Seven_Segment_Init(void);
+void Timer1_CTC_Init(void);
+void INT0_Init(void);
+void INT1_Init(void);
+void INT2_Init(void);
+void increment_segment(void);
+
+unsigned short num1 = 0;
+unsigned char flag = 0;
+unsigned char sec = 0, min=0,hr=0;
+unsigned char seg[]={0 , 1 , 2 , 3 , 4 , 5 , 6,
+		7 , 8 , 9
+};
+
+unsigned char sec_dig1 = 0, sec_dig2 = 0, min_dig1 = 0, min_dig2 =0 , hr_dig1 = 0, hr_dig2 = 0;
+
+ISR (INT0_vect)
+{
+	/*
+	 * This interrupt service routine handles the first case if pressed the first push button
+	   Stop Watch time should be reset.
+	 */
+	PORTC =0;
+}
+
+ISR(INT1_vect)
+{
+	/*
+	 *This interrupt service routine handles the second case if pressed the second push button
+	  the Stop Watch time should be paused.
+	  To stop timer we have to Clear those bits CS12 CS11 CS10 0 0 0 No clock source (Timer/Counter stopped)
+	 */
+
+	TCCR1B = 0;
+}
+
+ISR (INT2_vect)
+{
+	/*
+	 *This interrupt service routine handles the third case if pressed the third push button
+		Stop Watch time should be resumed.
+	 */
+
+	/*We start timer again by setting prescaler again with 1024)*/
+	TCCR1B |= ( 1<<CS10 )|(1<<CS12)|(1<<WGM12);
+
+}
+
+ISR (TIMER1_COMPA_vect)
+{
+
+
+}
+
+
+int main(void)
+{
+	/* Enable global interrupts in MC */
+	SREG |= (1<<7);
+
+	Timer1_CTC_Init();
+	INT0_Init();
+	INT1_Init();
+	INT2_Init();
+
+	/*Make Enable/disable pins of the 7segments output,
+	  every segment has 1 enable pin, 6 segments with 6 enable/disable pins
+	 */
+	DDRA |=0x3F;
+
+	//Seven segment initialization
+	Seven_Segment_Init();
+
+	while(1)
+	{
+		//set enable of the second segment from right hand side (seconds part)to display sec_dig2
+
+		/*PA6 PA7 => 3amltaha b zero fi tare2a asfar kolo m3ada a5er pin a5leha zy ma hya w set pin A1???
+		 * as2l 3amr feha !
+		 */
+
+		PORTA &=~(1<<PA5)&~(1<<PA3)&~(1<<PA2)&~(1<<PA1)&~(1<<PA0);
+		PORTA |=(1<<PA4);
+		PORTC = seg [sec_dig2];
+		_delay_ms(2);
+
+
+		PORTA &=~(1<<PA4)&~(1<<PA3)&~(1<<PA2)&~(1<<PA1)&~(1<<PA0);
+		PORTA |=(1<<PA5);
+		PORTC = seg [sec_dig1];
+		_delay_ms(2);
+
+		PORTA &=~(1<<PA4)&~(1<<PA3)&~(1<<PA5)&~(1<<PA1)&~(1<<PA0);
+		PORTA |=(1<<PA2);
+		PORTC = seg [min_dig2];
+		_delay_ms(2);
+
+		PORTA &=~(1<<PA4)&~(1<<PA5)&~(1<<PA2)&~(1<<PA1)&~(1<<PA0);
+		PORTA |=(1<<PA3);
+		PORTC = seg [min_dig1];
+		_delay_ms(2);
+
+		PORTA &=~(1<<PA4)&~(1<<PA3)&~(1<<PA2)&~(1<<PA1)&~(1<<PA5);
+		PORTA |=(1<<PA0);
+		PORTC = seg [hr_dig2];
+		_delay_ms(2);
+
+		PORTA &=~(1<<PA4)&~(1<<PA3)&~(1<<PA2)&~(1<<PA5)&~(1<<PA0);
+		PORTA |=(1<<PA1);
+		PORTC = seg [hr_dig1];
+		_delay_ms(2);
+
+
+	}
+
+
+}
+
+void Timer1_CTC_Init(void)
+{
+	//Set timer 1 in CTC mode
+	//Set Timer 1 initial value to zero
+	TCNT1=0;
+
+	/*The FOC1A/FOC1B bits are only active when the WGM13:0 bits specifies a non-PWM mode
+	 * Configure timer control register TCCR1A
+	 * 1. Normal port operation, OC1A/OC1B disconnected COM1A1=0 COM1A0=0 COM1B0=0 COM1B1=0
+	 * 2. FOC1A=1 FOC1B=0
+	 * 3. CTC Mode WGM10=0 WGM11=0 WGM12=1 WGM13=0 (Mode Number 4)
+	 * CS12 CS11 CS10 1 0 1 Description (Prescaler = 1024)
+	 */
+
+	TCCR1A = (1<<FOC1A);
+
+	/*Set the compare match value equals 1000 to make 1 second delay =1000 milisecond*/
+	OCR1A = 1000;
+
+	/* Enable Timer1 Compare A Interrupt */
+	TIMSK |= (1<<OCIE1A);
+
+	TCCR1B = (1<<WGM12)|(1<<CS10)|(1<<CS12);
+}
+
+void INT0_Init(void)
+{
+
+	//Enable External interrupt Request 0
+	//The falling edge of INT0 generates an interrupt request
+	MCUCR |= (1<<ISC01);
+	MCUCR &=~(1<<ISC00);
+
+	//make the connected pin to push button as input pin
+	DDRD &=(~(1<<PD2));
+	//Activate the internal pull up
+	PORTD |=(1<<PD2);
+	//Enable External interrupt 0
+	GICR  |= (1<<INT0);
+
+}
+void INT1_Init(void){
+
+	//Enable External interrupt Request 1
+	//The Raising edge of INT1 generates an interrupt request
+	MCUCR |= (1<<ISC10)|(1<<ISC11);
+	//make the connected pin to push button as input pin
+	//External pull down (no need to activate the internal pull up)
+	DDRD &=~(1<<PD3);
+	//Enable External interrupt 1
+	GICR  |= (1<<INT1);
+}
+void INT2_Init(void)
+{
+	//Enable External interrupt Request 2
+	/*If ISC2 is written to zero, a falling edge on
+	INT2 activates the interrupt. If ISC2 is written to one,
+	a rising edge on INT2 activates the interrupt*/
+
+	MCUCSR &= ~(1<<ISC2);
+	//make the connected pin to push button as input pin
+	//External pull down (no need to activate the internal pull up)
+	DDRB &=~(1<<PB2);
+	//Activate the internal pull up
+	PORTB |=(1<<PB2);
+	//Enable External interrupt 2
+	GICR  |= (1<<INT2);
+
+}
+
+void Seven_Segment_Init(void)
+{
+
+	//set first 4 pins in c as output pins which are connected to 7447
+	DDRC |= 0x0F ;
+
+
+	//set 4 pins at the beginning(Common Anode On with Zero/OFF with 1)
+	PORTC &= 0xF0;
+
+}
+
+
+void increment_segment(void)
+{
+
+
+	sec++;
+
+	if(sec == 59)
+	{
+		sec = 0;
+		min++;
+	}
+	if (min == 59)
+	{
+		min = 0;
+		hr++;
+	}
+	if (hr == 24)
+	{
+
+		hr = 0;
+	}
+
+	sec_dig2 = sec/10;
+	sec_dig1 = sec - sec_dig2*10 ;
+
+	min_dig2 = min/10;
+	min_dig1 = min - min_dig2*10 ;
+
+	hr_dig2 = hr/10;
+	hr_dig1 = hr - hr_dig2*10 ;
+}
